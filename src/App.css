@@ -1,0 +1,68 @@
+:root .dark-mode {
+  --bg-primary: rgb(37, 39, 52);
+  --bg-secondary: white;
+  --color-purple: rgb(127, 62, 182);
+}
+
+.dark-mode {
+  /* background-color: var(--color-white); */
+  background-color: rgb(27, 27, 27);
+  color: var(--bg-secondary);
+}
+
+.dark-mode a {
+  color: var(--bg-secondary);
+}
+
+:root {
+  --bg-secondary: rgb(37, 39, 52);
+  --bg-primary: white;
+  --color-purple: rgb(127, 62, 182);
+  color: rgb(37, 39, 52);
+}
+
+.purple {
+  color: var(--color-purple)
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hr {
+  margin: 27px;
+}
+
+
+/* -------------------scroll bar ---------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-purple);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-purple);
+}
+
+/* ----------------------------------------------------------------------------- */

@@ -1,0 +1,27 @@
+.ThirdSection {
+    width: 80%;
+    margin: auto;
+}
+.skillLogo{
+    width: 57px;
+    height: 55px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 62px;
+    padding: 12px 0px;
+}
+
+/* .first{
+    width: 30%;
+}
+.second{
+    width: 70%;
+    height: 100px;
+    overflow-y: scroll; */
+    /* overflow: hidden; */
+    /* overflow: auto;
+} */
